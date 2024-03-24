@@ -14,37 +14,35 @@ Our mission is to empower retailers, analysts, and data enthusiasts with actiona
 
 
 
-Customers.xlsx:
+##Customers.xlsx:
 This Excel file contains comprehensive information about customers in the e-commerce retail dataset. It includes attributes such as customer ID, name, contact details, demographics, and any other relevant information that helps characterize the customer base. Additionally, it may contain data related to customer segments, loyalty programs, or past purchase history to enable deeper analysis of customer behavior and preferences.
 
-Transactions.xlsx:
+##Transactions.xlsx:
 The Transactions.xlsx file contains detailed records of all transactions conducted within the e-commerce platform. Each transaction entry typically includes data such as transaction ID, date and time of purchase, customer ID, product details (such as SKU, name, price), quantity purchased, and total transaction amount. This file serves as the primary source for analyzing sales performance, identifying popular products, understanding buying patterns, and conducting various financial analyses.
 
-Prod_cat_info.xlsx:
+##Prod_cat_info.xlsx:
 The Prod_cat_info.xlsx file provides essential information about the products available on the e-commerce platform. It includes details such as product category, subcategory, brand, attributes, and possibly pricing information. This file helps in categorizing products, understanding the product assortment, and analyzing the performance of different product categories or brands. Additionally, it may contain supplementary data such as product descriptions or specifications to enrich the analysis.
 
 These Excel files serve as foundational components for conducting in-depth analysis and generating actionable insights into various aspects of e-commerce retail, including customer behavior, sales trends, and product performance. Researchers, analysts, and data enthusiasts can leverage these datasets to explore and extract valuable information that drives informed decision-making and business growth.
 
 
 
-Repository Name: EcommerceAnalyticsVault
-
 Description:
 Welcome to the EcommerceAnalyticsVault repository, your comprehensive resource for exploring and understanding data insights within the e-commerce retail sector. Leveraging SQL as the primary analytical tool, this repository offers a deep dive into customer behavior, sales trends, and product performance within the dynamic e-commerce landscape.
 
 Datasets:
 
-Customers.xlsx:
+###Customers.xlsx:
 This Excel file contains detailed information about customers in the e-commerce dataset. It includes attributes such as customer ID, name, contact details, demographics, and other relevant information. These data points enable thorough analysis of customer segments, preferences, and purchasing behavior.
 
-Transactions.xlsx:
+###Transactions.xlsx:
 Transactions.xlsx holds a comprehensive record of all transactions conducted within the e-commerce platform. Each entry includes transaction ID, date and time of purchase, customer ID, product details (SKU, name, price), quantity purchased, and total transaction amount. This dataset serves as the foundation for analyzing sales performance, identifying popular products, and understanding buying patterns.
 
-Prod_cat_info.xlsx:
+###Prod_cat_info.xlsx:
 The Prod_cat_info.xlsx file provides essential product information, including category, subcategory, brand, and attributes. This dataset facilitates categorization of products, analysis of product assortment, and assessment of category-wise performance. Additionally, it may contain supplementary data such as product descriptions or specifications.
 
 
-Analytical Tool:
+#Analytical Tool:
 The analysis in this repository is conducted primarily using SQL (Structured Query Language), a powerful tool for querying and analyzing relational databases. SQL enables efficient retrieval, manipulation, and aggregation of data, allowing for complex analysis and extraction of valuable insights from large datasets.
 
 Objective:
