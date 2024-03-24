@@ -14,7 +14,7 @@ Our mission is to empower retailers, analysts, and data enthusiasts with actiona
 
 
 
-#Customers.xlsx:
+## Customers.xlsx:
 This Excel file contains comprehensive information about customers in the e-commerce retail dataset. It includes attributes such as customer ID, name, contact details, demographics, and any other relevant information that helps characterize the customer base. Additionally, it may contain data related to customer segments, loyalty programs, or past purchase history to enable deeper analysis of customer behavior and preferences.
 
 #Transactions.xlsx:
