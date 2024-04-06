@@ -186,14 +186,14 @@ select * from dbo.prod_cat_info
 
 #Q9. WHAT IS THE TOTAL REVENUE GENERATED FROM "MALE" CUSTOMERS IN  "ELECTRONICS" CATEGORY ? OUTPUT SHOULD DISPLAY TOTAL REVENUE BY PROD SUB.CAT.
 
-     Select sum(total_amt) as Amount_ME from [dbo].[Transactions_new] as T
+     Select sum(total_amt) as Total_revenue from [dbo].[Transactions_new] as T
      Inner join [dbo].[Customers_new] as C
      On T.cust_id = C.customer_Id
      Inner join [dbo].[prod_cat_info] as P 
      On P.prod_sub_cat_code = T.prod_subcat_code
      Where gender = 'M' and prod_cat = 'Electronics'
 
-     Select prod_subcat,sum(total_amt) as Amount_ME from [dbo].[Transactions_new] as T
+     Select prod_subcat,sum(total_amt) as Total_revenue from [dbo].[Transactions_new] as T
      Inner join [dbo].[Customers_new] as C
      On T.cust_id = C.customer_Id
      Inner join [dbo].[prod_cat_info] as P 
